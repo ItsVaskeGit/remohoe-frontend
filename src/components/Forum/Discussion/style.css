@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
+
+.discussion-container {
+    font-family: "Momo Trust Display", sans-serif;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid white;
+    padding: 40px 40px 40px 40px;
+    border-radius: 20px;
+}
+
+.new-comment {
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: #1a1a1a;
+    margin-top: 40px;
+    padding: 15px 20px 15px 20px;
+}
+
+.discussion-splash {
+    display: flex;
+    font-family: "Momo Trust Display", sans-serif;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}

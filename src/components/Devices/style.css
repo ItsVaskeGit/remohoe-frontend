@@ -1,0 +1,18 @@
+.devices-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.new-device {
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px 40px 20px 40px;
+    background-color: #1a1a1a;
+}
+
+.new-device:hover {
+    background-color: #2c2b2b;
+}

@@ -1,4 +1,3 @@
-import './App.css'
 import {BrowserRouter, Route, Routes} from "react-router";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import Home from "./components/Home/Home.jsx";
@@ -10,6 +9,7 @@ import Discussion from "./components/Forum/Discussion/Discussion.jsx";
 import New from "./components/Forum/New/New.jsx";
 import NewComment from "./components/Forum/NewComment/NewComment.jsx";
 import AccountArea from "./components/AccountArea/AccountArea.jsx";
+import Documentation from "./components/Documentation/Documentation.jsx";
 
 function App() {
 
@@ -27,6 +27,7 @@ function App() {
                     <Route path="/register" element={<Signup/>}/>
                     <Route path="/forum/new" element={<New/>}/>
                     <Route path="/account" element={<AccountArea/>}/>
+                    <Route path="/docs" element={<Documentation/>}/>
                     <Route path="/discussion/:threadId" element={<Discussion/>}/>
                     <Route path="/discussion/:threadId/new" element={<NewComment/>}/>
                 </Routes>

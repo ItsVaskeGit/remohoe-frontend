@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
+
+.register-screen {
+    display: flex;
+    justify-content: center;
+    font-family: "Momo Trust Display", sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.register-button {
+    padding: 20px 40px 20px 40px;
+    border-radius: 20px;
+}

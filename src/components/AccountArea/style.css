@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
+
+.account-area-splash {
+    display: flex;
+    justify-content: center;
+    font-family: "Momo Trust Display", sans-serif;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}

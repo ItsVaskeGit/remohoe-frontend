@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
+
+.forum-splash {
+    display: flex;
+    justify-content: center;
+    font-family: "Momo Trust Display", sans-serif;
+}
+
+.forum-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.new-thread {
+    display: flex;
+    justify-content: center;
+    padding: 10px 40px 10px 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #1a1a1a;
+    font-family: "Momo Trust Display", sans-serif;
+    margin-top: 30px;
+    font-size: 25px;
+}

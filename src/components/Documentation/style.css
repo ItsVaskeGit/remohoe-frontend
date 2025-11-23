@@ -1,0 +1,8 @@
+.readme {
+    width: 800px;
+}
+
+.readme-container {
+    display: flex;
+    justify-content: center;
+}

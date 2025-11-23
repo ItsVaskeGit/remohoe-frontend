@@ -1,0 +1,47 @@
+.device-container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 20px ;
+    width: 200px;
+    height: 200px;
+}
+
+.name {
+    font-size: 30px ;
+    margin-bottom: 30px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+
+.image {
+    width: 30px;
+    height: 30px;
+}
+
+.active {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    border: 1px solid white;
+    padding: 2px 0 0 0;
+    background-color: green;
+    border-radius: 20px;
+}
+
+.inactive {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        border: 1px solid white;
+        padding: 2px 0 0 0;
+        background-color: red;
+        border-radius: 20px;
+}

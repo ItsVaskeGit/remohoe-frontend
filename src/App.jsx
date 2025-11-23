@@ -1,35 +1,39 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import {BrowserRouter, Route, Routes} from "react-router";
+import Navbar from "./components/Navbar/Navbar.jsx";
+import Home from "./components/Home/Home.jsx";
+import Login from "./components/Login/Login.jsx";
+import Signup from "./components/Signup/Signup.jsx"
+import Devices from "./components/Devices/Devices.jsx";
+import Forum from "./components/Forum/Forum.jsx";
+import Discussion from "./components/Forum/Discussion/Discussion.jsx";
+import New from "./components/Forum/New/New.jsx";
+import NewComment from "./components/Forum/NewComment/NewComment.jsx";
+import AccountArea from "./components/AccountArea/AccountArea.jsx";
+import Documentation from "./components/Documentation/Documentation.jsx";
 
 function App() {
-  const [count, setCount] = useState(0)
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    return (
+        <>
+            <BrowserRouter>
+                <h1 className="splash-title">Welcome to Remohoe</h1>
+                <Navbar/>
+                <Routes>
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="/login" element={<Login/>}/>
+                    <Route path="/signup" element={<Signup/>}/>
+                    <Route path="/forum" element={<Forum/>}/>
+                    <Route path="/devices" element={<Devices/>}/>
+                    <Route path="/register" element={<Signup/>}/>
+                    <Route path="/forum/new" element={<New/>}/>
+                    <Route path="/account" element={<AccountArea/>}/>
+                    <Route path="/docs" element={<Documentation/>}/>
+                    <Route path="/discussion/:threadId" element={<Discussion/>}/>
+                    <Route path="/discussion/:threadId/new" element={<NewComment/>}/>
+                </Routes>
+            </BrowserRouter>
+        </>
+    )
 }
 
 export default App

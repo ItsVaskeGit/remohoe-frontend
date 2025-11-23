@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -15,7 +17,7 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #636060;
   text-decoration: inherit;
 }
 a:hover {
@@ -25,7 +27,8 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  place-items: flex-start;
+  justify-content: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -46,6 +49,7 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
@@ -54,15 +58,14 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.splash-title {
+    font-family: "Momo Trust Display", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

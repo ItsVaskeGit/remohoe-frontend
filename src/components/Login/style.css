@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
+
+.login-container {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    font-family: "Momo Trust Display", sans-serif;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+input {
+    padding: 30px 60px 30px 60px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-button {
+    padding: 20px 40px 20px 40px;
+    border-radius: 20px;
+}

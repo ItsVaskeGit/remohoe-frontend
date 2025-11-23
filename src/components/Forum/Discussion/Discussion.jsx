@@ -30,8 +30,6 @@ export default function Discussion() {
         navigate("/discussion/" + thread.id + "/new");
     }
 
-    console.log(thread)
-
     return (
         <>
         <h1 className="discussion-splash">Discussion</h1>
@@ -44,12 +42,11 @@ export default function Discussion() {
             )}
             {thread ? (
                 thread.comments.length !== 0 ? (
-                        thread.comments.map((entry) =>
-                            <Comment user={entry.user} commentDate={entry.commentDate} message={entry.data}></Comment>
+                        thread.comments.map((entry, index) =>
+                            <Comment key={index} user={entry.user} commentDate={entry.commentDate} message={entry.data}></Comment>
                         )
                     ) : (<></>)
             ) : (<></>)}
-            <Comment user="neko" commentDate="10.10.2022" message="nesto"></Comment>
         </div>
             <div className="new-comment" onClick={handleNewComment}>New Comment</div>
         </>

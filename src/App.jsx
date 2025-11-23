@@ -9,6 +9,7 @@ import Forum from "./components/Forum/Forum.jsx";
 import Discussion from "./components/Forum/Discussion/Discussion.jsx";
 import New from "./components/Forum/New/New.jsx";
 import NewComment from "./components/Forum/NewComment/NewComment.jsx";
+import AccountArea from "./components/AccountArea/AccountArea.jsx";
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
                     <Route path="/devices" element={<Devices/>}/>
                     <Route path="/register" element={<Signup/>}/>
                     <Route path="/forum/new" element={<New/>}/>
+                    <Route path="/account" element={<AccountArea/>}/>
                     <Route path="/discussion/:threadId" element={<Discussion/>}/>
                     <Route path="/discussion/:threadId/new" element={<NewComment/>}/>
                 </Routes>

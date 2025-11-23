@@ -1,0 +1,18 @@
+.error {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: red;
+    margin-top: 50px;
+    width: 300px;
+}
+
+.error-message {
+    font-size: 15px;
+}
+
+.error-box {
+    display: flex;
+    justify-content: center;
+}

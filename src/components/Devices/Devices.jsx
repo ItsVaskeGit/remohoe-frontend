@@ -20,9 +20,9 @@ export default function Devices() {
         fetchDevices();
     })
 
-    function handleNewDevice() {
-        navigate("/device/new");
-    }
+    // function handleNewDevice() {
+    //     navigate("/device/new");
+    // }
 
     return (
         <>

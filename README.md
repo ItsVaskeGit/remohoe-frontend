@@ -1,16 +1,60 @@
-# React + Vite
+# 🏡 REMOHOE — Remote Homestead Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+REMOHOE is a MERN-stack application for remotely managing homestead devices.  
+It includes full device CRUD operations, user authentication, patch notes, news, and a simple community forum.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+### 🔧 Device Management (CRUD)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- View all devices assigned to your homestead
 
-## Expanding the ESLint configuration
+### 👤 User Account System
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- User registration
+- Login / Logout
+- JWT-based authentication
+- Personalized user profile
+
+### 📰 News & Patch Notes
+
+- View platform news
+- Track updates and changes through patch notes
+
+### 💬 Community Forum
+
+- Create and read posts
+- Discuss with other users
+- Basic community interactions
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React
+- React Router
+- Axios
+
+
+### Backend
+
+- Node.js
+- Express.js
+- MongoDB / Mongoose
+- JSON Web Tokens (JWT)
+
+---
+
+## 📁 Project Structure
+
+## Future improvements:
+
+- Add new devices
+- Edit existing devices
+- Delete devices
+- UI
+- Functional News feed on Home page

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
+
+.note-container {
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    padding: 0 30px 60px 30px;
+    font-family: "Momo Trust Display", sans-serif;
+}
+
+.description {
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.publish-date {
+    font-size: 15px;
+}
+
+.home-splash {
+    display: flex;
+    justify-content: center;
+    font-family: "Momo Trust Display", sans-serif;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}

@@ -19,11 +19,11 @@ const Navbar = () => {
             <Link className="link" to="/forum">Forum</Link>
             <Link className="link" to="/account">Profile</Link>
             <Link className="link" to="/register">Register</Link>
-            {/*{user ? (*/}
+            {localStorage.getItem("token") ? (
                 <Link className="link" to="/" onClick={handleLogOut}>Log out</Link>
-            {/*) : (*/}
+            ) : (
                 <Link className="link" to="/login">Log in</Link>
-            {/*)}*/}
+            )}
         </ul>
         </div>
     );
